@@ -32,6 +32,10 @@
                 Money -= Wager
                 lblWager.Text = "Wager: $" & Wager
                 lblMoney.Text = "Money: $" & Money
+                'Shows the label with money wager
+                lblMoney.Text = "Money: $" & Money & " - $" & Wager
+                System.Threading.Thread.Sleep(1000)
+                lblMoney.Text = "Money: $" & Money
                 timSpin1.Start()
                 timSpin2.Start()
                 timSpin3.Start()
@@ -112,6 +116,10 @@
             Winnings = wager * 2
         Else Winnings = 0
         End If
+        'Shows the label with winnings for 1 sec
+        lblMoney.Text = "Money: $" & Money & " + $" & Winnings
+        System.Threading.Thread.Sleep(1000)
+        lblMoney.Text = "Money: $" & Money
         Return Winnings
     End Function
 

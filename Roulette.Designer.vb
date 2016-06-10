@@ -60,14 +60,14 @@ Partial Class Roulette
         Me.btn32 = New System.Windows.Forms.Button()
         Me.btn34 = New System.Windows.Forms.Button()
         Me.btn36 = New System.Windows.Forms.Button()
+        Me.btn44 = New System.Windows.Forms.Button()
         Me.btn45 = New System.Windows.Forms.Button()
-        Me.btn46 = New System.Windows.Forms.Button()
         Me.btn42 = New System.Windows.Forms.Button()
         Me.btn40 = New System.Windows.Forms.Button()
         Me.btn37 = New System.Windows.Forms.Button()
         Me.btn38 = New System.Windows.Forms.Button()
         Me.btn39 = New System.Windows.Forms.Button()
-        Me.btn44 = New System.Windows.Forms.Button()
+        Me.btn43 = New System.Windows.Forms.Button()
         Me.btn41 = New System.Windows.Forms.Button()
         Me.btn00 = New System.Windows.Forms.Button()
         Me.lblMoney = New System.Windows.Forms.Label()
@@ -87,7 +87,7 @@ Partial Class Roulette
         '
         'btn01
         '
-        Me.btn01.BackColor = System.Drawing.Color.Black
+        Me.btn01.BackColor = System.Drawing.Color.Red
         Me.btn01.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn01.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn01.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -100,7 +100,7 @@ Partial Class Roulette
         '
         'btn02
         '
-        Me.btn02.BackColor = System.Drawing.Color.Red
+        Me.btn02.BackColor = System.Drawing.Color.Black
         Me.btn02.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn02.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn02.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -113,7 +113,7 @@ Partial Class Roulette
         '
         'btn04
         '
-        Me.btn04.BackColor = System.Drawing.Color.Red
+        Me.btn04.BackColor = System.Drawing.Color.Black
         Me.btn04.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn04.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn04.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -126,7 +126,7 @@ Partial Class Roulette
         '
         'btn06
         '
-        Me.btn06.BackColor = System.Drawing.Color.Red
+        Me.btn06.BackColor = System.Drawing.Color.Black
         Me.btn06.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn06.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn06.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -139,7 +139,7 @@ Partial Class Roulette
         '
         'btn03
         '
-        Me.btn03.BackColor = System.Drawing.Color.Black
+        Me.btn03.BackColor = System.Drawing.Color.Red
         Me.btn03.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn03.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn03.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -152,7 +152,7 @@ Partial Class Roulette
         '
         'btn05
         '
-        Me.btn05.BackColor = System.Drawing.Color.Black
+        Me.btn05.BackColor = System.Drawing.Color.Red
         Me.btn05.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn05.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn05.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -165,7 +165,7 @@ Partial Class Roulette
         '
         'btn07
         '
-        Me.btn07.BackColor = System.Drawing.Color.Black
+        Me.btn07.BackColor = System.Drawing.Color.Red
         Me.btn07.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn07.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn07.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -178,7 +178,7 @@ Partial Class Roulette
         '
         'btn09
         '
-        Me.btn09.BackColor = System.Drawing.Color.Black
+        Me.btn09.BackColor = System.Drawing.Color.Red
         Me.btn09.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn09.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn09.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -191,7 +191,7 @@ Partial Class Roulette
         '
         'btn08
         '
-        Me.btn08.BackColor = System.Drawing.Color.Red
+        Me.btn08.BackColor = System.Drawing.Color.Black
         Me.btn08.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn08.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn08.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -230,7 +230,7 @@ Partial Class Roulette
         '
         'btn23
         '
-        Me.btn23.BackColor = System.Drawing.Color.Black
+        Me.btn23.BackColor = System.Drawing.Color.Red
         Me.btn23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn23.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn23.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -282,7 +282,7 @@ Partial Class Roulette
         '
         'btn19
         '
-        Me.btn19.BackColor = System.Drawing.Color.Black
+        Me.btn19.BackColor = System.Drawing.Color.Red
         Me.btn19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn19.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn19.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -295,7 +295,7 @@ Partial Class Roulette
         '
         'btn25
         '
-        Me.btn25.BackColor = System.Drawing.Color.Black
+        Me.btn25.BackColor = System.Drawing.Color.Red
         Me.btn25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn25.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn25.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -334,7 +334,7 @@ Partial Class Roulette
         '
         'btn21
         '
-        Me.btn21.BackColor = System.Drawing.Color.Black
+        Me.btn21.BackColor = System.Drawing.Color.Red
         Me.btn21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn21.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn21.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -347,7 +347,7 @@ Partial Class Roulette
         '
         'btn27
         '
-        Me.btn27.BackColor = System.Drawing.Color.Black
+        Me.btn27.BackColor = System.Drawing.Color.Red
         Me.btn27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn27.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn27.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -373,7 +373,7 @@ Partial Class Roulette
         '
         'btn10
         '
-        Me.btn10.BackColor = System.Drawing.Color.Red
+        Me.btn10.BackColor = System.Drawing.Color.Black
         Me.btn10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn10.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn10.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -438,7 +438,7 @@ Partial Class Roulette
         '
         'btn20
         '
-        Me.btn20.BackColor = System.Drawing.Color.Red
+        Me.btn20.BackColor = System.Drawing.Color.Black
         Me.btn20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn20.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn20.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -451,7 +451,7 @@ Partial Class Roulette
         '
         'btn22
         '
-        Me.btn22.BackColor = System.Drawing.Color.Red
+        Me.btn22.BackColor = System.Drawing.Color.Black
         Me.btn22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn22.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn22.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -464,7 +464,7 @@ Partial Class Roulette
         '
         'btn24
         '
-        Me.btn24.BackColor = System.Drawing.Color.Red
+        Me.btn24.BackColor = System.Drawing.Color.Black
         Me.btn24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn24.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn24.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -477,7 +477,7 @@ Partial Class Roulette
         '
         'btn26
         '
-        Me.btn26.BackColor = System.Drawing.Color.Red
+        Me.btn26.BackColor = System.Drawing.Color.Black
         Me.btn26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn26.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn26.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -490,7 +490,7 @@ Partial Class Roulette
         '
         'btn28
         '
-        Me.btn28.BackColor = System.Drawing.Color.Red
+        Me.btn28.BackColor = System.Drawing.Color.Black
         Me.btn28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn28.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn28.ForeColor = System.Drawing.Color.WhiteSmoke
@@ -553,31 +553,31 @@ Partial Class Roulette
         Me.btn36.Text = "36"
         Me.btn36.UseVisualStyleBackColor = False
         '
+        'btn44
+        '
+        Me.btn44.BackColor = System.Drawing.Color.Red
+        Me.btn44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn44.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn44.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.btn44.Location = New System.Drawing.Point(313, 248)
+        Me.btn44.Name = "btn44"
+        Me.btn44.Size = New System.Drawing.Size(79, 45)
+        Me.btn44.TabIndex = 36
+        Me.btn44.Text = "RED"
+        Me.btn44.UseVisualStyleBackColor = False
+        '
         'btn45
         '
-        Me.btn45.BackColor = System.Drawing.Color.Red
+        Me.btn45.BackColor = System.Drawing.Color.Black
         Me.btn45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn45.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn45.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.btn45.Location = New System.Drawing.Point(313, 248)
+        Me.btn45.Location = New System.Drawing.Point(390, 248)
         Me.btn45.Name = "btn45"
         Me.btn45.Size = New System.Drawing.Size(79, 45)
-        Me.btn45.TabIndex = 36
-        Me.btn45.Text = "RED"
+        Me.btn45.TabIndex = 37
+        Me.btn45.Text = "BLACK"
         Me.btn45.UseVisualStyleBackColor = False
-        '
-        'btn46
-        '
-        Me.btn46.BackColor = System.Drawing.Color.Black
-        Me.btn46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn46.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn46.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.btn46.Location = New System.Drawing.Point(390, 248)
-        Me.btn46.Name = "btn46"
-        Me.btn46.Size = New System.Drawing.Size(79, 45)
-        Me.btn46.TabIndex = 37
-        Me.btn46.Text = "BLACK"
-        Me.btn46.UseVisualStyleBackColor = False
         '
         'btn42
         '
@@ -644,18 +644,18 @@ Partial Class Roulette
         Me.btn39.Text = "3rd 12"
         Me.btn39.UseVisualStyleBackColor = False
         '
-        'btn44
+        'btn43
         '
-        Me.btn44.BackColor = System.Drawing.Color.Green
-        Me.btn44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn44.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn44.ForeColor = System.Drawing.Color.Gold
-        Me.btn44.Location = New System.Drawing.Point(470, 248)
-        Me.btn44.Name = "btn44"
-        Me.btn44.Size = New System.Drawing.Size(79, 45)
-        Me.btn44.TabIndex = 43
-        Me.btn44.Text = "ODD"
-        Me.btn44.UseVisualStyleBackColor = False
+        Me.btn43.BackColor = System.Drawing.Color.Green
+        Me.btn43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn43.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn43.ForeColor = System.Drawing.Color.Gold
+        Me.btn43.Location = New System.Drawing.Point(470, 248)
+        Me.btn43.Name = "btn43"
+        Me.btn43.Size = New System.Drawing.Size(79, 45)
+        Me.btn43.TabIndex = 43
+        Me.btn43.Text = "ODD"
+        Me.btn43.UseVisualStyleBackColor = False
         '
         'btn41
         '
@@ -741,12 +741,14 @@ Partial Class Roulette
         '
         'nudWager
         '
-        Me.nudWager.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.nudWager.BackColor = System.Drawing.Color.Green
+        Me.nudWager.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nudWager.ForeColor = System.Drawing.Color.White
         Me.nudWager.Increment = New Decimal(New Integer() {10, 0, 0, 0})
-        Me.nudWager.Location = New System.Drawing.Point(17, 82)
+        Me.nudWager.Location = New System.Drawing.Point(12, 81)
         Me.nudWager.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
         Me.nudWager.Name = "nudWager"
-        Me.nudWager.Size = New System.Drawing.Size(68, 20)
+        Me.nudWager.Size = New System.Drawing.Size(124, 33)
         Me.nudWager.TabIndex = 48
         Me.nudWager.ThousandsSeparator = True
         Me.nudWager.Value = New Decimal(New Integer() {50, 0, 0, 0})
@@ -813,7 +815,7 @@ Partial Class Roulette
         Me.lblInstructions.BackColor = System.Drawing.Color.Teal
         Me.lblInstructions.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInstructions.ForeColor = System.Drawing.Color.White
-        Me.lblInstructions.Location = New System.Drawing.Point(362, 79)
+        Me.lblInstructions.Location = New System.Drawing.Point(362, 81)
         Me.lblInstructions.Name = "lblInstructions"
         Me.lblInstructions.Size = New System.Drawing.Size(510, 130)
         Me.lblInstructions.TabIndex = 51
@@ -827,7 +829,7 @@ Partial Class Roulette
         Me.btnMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMax.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMax.ForeColor = System.Drawing.Color.White
-        Me.btnMax.Location = New System.Drawing.Point(12, 108)
+        Me.btnMax.Location = New System.Drawing.Point(12, 126)
         Me.btnMax.Name = "btnMax"
         Me.btnMax.Size = New System.Drawing.Size(97, 32)
         Me.btnMax.TabIndex = 63
@@ -858,7 +860,7 @@ Partial Class Roulette
         Me.Controls.Add(Me.btn10)
         Me.Controls.Add(Me.btn04)
         Me.Controls.Add(Me.btn33)
-        Me.Controls.Add(Me.btn44)
+        Me.Controls.Add(Me.btn43)
         Me.Controls.Add(Me.btn16)
         Me.Controls.Add(Me.btn06)
         Me.Controls.Add(Me.btn27)
@@ -880,11 +882,11 @@ Partial Class Roulette
         Me.Controls.Add(Me.btn25)
         Me.Controls.Add(Me.btn08)
         Me.Controls.Add(Me.btn26)
-        Me.Controls.Add(Me.btn46)
+        Me.Controls.Add(Me.btn45)
         Me.Controls.Add(Me.btn19)
         Me.Controls.Add(Me.btn11)
         Me.Controls.Add(Me.btn28)
-        Me.Controls.Add(Me.btn45)
+        Me.Controls.Add(Me.btn44)
         Me.Controls.Add(Me.btn13)
         Me.Controls.Add(Me.btn17)
         Me.Controls.Add(Me.btn30)
@@ -940,14 +942,14 @@ Partial Class Roulette
     Friend WithEvents btn32 As Button
     Friend WithEvents btn34 As Button
     Friend WithEvents btn36 As Button
+    Friend WithEvents btn44 As Button
     Friend WithEvents btn45 As Button
-    Friend WithEvents btn46 As Button
     Friend WithEvents btn42 As Button
     Friend WithEvents btn40 As Button
     Friend WithEvents btn37 As Button
     Friend WithEvents btn38 As Button
     Friend WithEvents btn39 As Button
-    Friend WithEvents btn44 As Button
+    Friend WithEvents btn43 As Button
     Friend WithEvents btn41 As Button
     Friend WithEvents btn00 As Button
     Friend WithEvents lblMoney As Label

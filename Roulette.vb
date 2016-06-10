@@ -6,16 +6,15 @@
 ''' </summary>
 
 Public Class Roulette
-    Dim Buttons(47) As Button 'Array for all the buttons
+    Dim Buttons(45) As Button 'Array for all the buttons
     Dim intWager As Integer 'User's wager
     Dim wagerType As String 'Type of wager
     Dim count As Integer 'The count of rotation ticks of wheel
     Dim StopChance As Integer 'RND for the stopping of wheel
     Dim WinNum As Integer 'The winning number
     Dim imlist2Real(37) As Integer 'Shows the printed number for each slot in the wheel
-    Dim Real2Colour(37) As Integer
-    Dim stopColour As Integer
-
+    Dim Real2Colour(37) As Integer 'Dims the colour of the numbers
+    Dim stopColour As Integer 'Stopped colour
 
     Private Sub Buttons_Click(sender As Object, e As EventArgs)
         'Makes sure they can play, then reduces the wager from the money and calls the spin sub routine
@@ -25,6 +24,10 @@ Public Class Roulette
             intWager = nudWager.Value
             Money = Money - intWager
             lblWager.Text = "Wager: $" & intWager
+            lblMoney.Text = "Money: $" & Money
+            'Shows the label with what they're losing
+            lblMoney.Text = "Money: $" & Money & " - $" & intWager
+            System.Threading.Thread.Sleep(1000)
             lblMoney.Text = "Money: $" & Money
             wagerType = sender.text
             spinRoulette()
@@ -42,7 +45,7 @@ Public Class Roulette
         Dim x As Integer = 0
         For Each cntrl In Me.Controls
             If TypeOf (cntrl) Is Button Then
-                If cntrl.Name <> "btnMax" Then
+                If Not (cntrl.Name = "btnMax" Or cntrl.Name = "btnInstructions" Or cntrl.Name = "btnExit") Then
                     Buttons(x) = cntrl
                     AddHandler Buttons(x).Click, AddressOf Buttons_Click
                     x = x + 1
@@ -138,29 +141,38 @@ Public Class Roulette
 
     Sub spinRoulette()
         'Spins the wheel, plays sound.
-        For x = 0 To UBound(Buttons)
+        For x = 0 To 45
             Buttons(x).Visible = False
         Next
         PictureBox1.Visible = True
         timRoulette.Start()
         My.Computer.Audio.Play(My.Resources.Roulette_sound_effect, AudioPlayMode.BackgroundLoop)
-        count = 0
+        count = 1
     End Sub
 
     Private Sub timRoulette_Tick(sender As Object, e As EventArgs) Handles timRoulette.Tick
         'Replaces the picture with a rotated one each tick, has a chance to stop each tick (makes it truly random)
         PictureBox1.Image = imlRouletteWheel.Images(count)
         StopChance = 40 * Rnd()
+
         'Once stopped, stops music and runs the Winmoney function and resetboard subroutine
         If StopChance = 10 Then
             timRoulette.Stop()
             My.Computer.Audio.Stop()
             WinNum = imlist2Real(count)
             stopColour = Real2Colour(WinNum)
+            If stopColour = 0 Then
+                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Red")
+            ElseIf stopColour = 1 Then
+                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Black")
+            ElseIf stopColour = 2 Then
+                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Green")
+            End If
             Money += WinMoney(WinNum, wagerType, stopColour)
             lblMoney.Text = "Money: $" & Money
             ResetBoard()
         End If
+
         'Resets after complete rotation
         If count = 37 Then
             count = 1
@@ -195,13 +207,15 @@ Public Class Roulette
             WinMoney = intWager * 3
         Else WinMoney = 0 'If you lose
         End If
-
+        'Shows a label with winnings
+        lblMoney.Text = "Money: $" & Money & " + $" & WinMoney
+        System.Threading.Thread.Sleep(1000)
+        lblMoney.Text = "Money: $" & Money
         Return WinMoney
     End Function
 
     Sub ResetBoard()
-        'Lets the user see result for one second, brings buttons back
-        Threading.Thread.Sleep(1000)
+        'Brings buttons back
         For x = 0 To UBound(Buttons)
             Buttons(x).Visible = True
         Next

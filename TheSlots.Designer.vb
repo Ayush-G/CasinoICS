@@ -61,11 +61,14 @@ Partial Class TheSlots
         '
         'nudWager
         '
+        Me.nudWager.BackColor = System.Drawing.Color.Green
+        Me.nudWager.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nudWager.ForeColor = System.Drawing.Color.White
         Me.nudWager.Increment = New Decimal(New Integer() {10, 0, 0, 0})
         Me.nudWager.Location = New System.Drawing.Point(17, 73)
         Me.nudWager.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
         Me.nudWager.Name = "nudWager"
-        Me.nudWager.Size = New System.Drawing.Size(68, 20)
+        Me.nudWager.Size = New System.Drawing.Size(68, 33)
         Me.nudWager.TabIndex = 51
         Me.nudWager.ThousandsSeparator = True
         Me.nudWager.Value = New Decimal(New Integer() {50, 0, 0, 0})
@@ -100,7 +103,7 @@ Partial Class TheSlots
         Me.btnSpin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSpin.Font = New System.Drawing.Font("Calibri", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSpin.ForeColor = System.Drawing.Color.White
-        Me.btnSpin.Location = New System.Drawing.Point(341, 461)
+        Me.btnSpin.Location = New System.Drawing.Point(434, 463)
         Me.btnSpin.Name = "btnSpin"
         Me.btnSpin.Size = New System.Drawing.Size(183, 47)
         Me.btnSpin.TabIndex = 56
@@ -120,7 +123,7 @@ Partial Class TheSlots
         '
         Me.lblFreeSpins.AutoSize = True
         Me.lblFreeSpins.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFreeSpins.Location = New System.Drawing.Point(83, 475)
+        Me.lblFreeSpins.Location = New System.Drawing.Point(176, 477)
         Me.lblFreeSpins.Name = "lblFreeSpins"
         Me.lblFreeSpins.Size = New System.Drawing.Size(107, 26)
         Me.lblFreeSpins.TabIndex = 57
@@ -139,7 +142,7 @@ Partial Class TheSlots
         'picSlot3
         '
         Me.picSlot3.Image = Global.CasinoGame.My.Resources.Resources.Coins1
-        Me.picSlot3.Location = New System.Drawing.Point(555, 149)
+        Me.picSlot3.Location = New System.Drawing.Point(648, 151)
         Me.picSlot3.Name = "picSlot3"
         Me.picSlot3.Size = New System.Drawing.Size(215, 280)
         Me.picSlot3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -149,7 +152,7 @@ Partial Class TheSlots
         'picSlot2
         '
         Me.picSlot2.Image = Global.CasinoGame.My.Resources.Resources.Coins1
-        Me.picSlot2.Location = New System.Drawing.Point(323, 149)
+        Me.picSlot2.Location = New System.Drawing.Point(416, 151)
         Me.picSlot2.Name = "picSlot2"
         Me.picSlot2.Size = New System.Drawing.Size(215, 280)
         Me.picSlot2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -159,7 +162,7 @@ Partial Class TheSlots
         'picSlot1
         '
         Me.picSlot1.Image = Global.CasinoGame.My.Resources.Resources.Coins
-        Me.picSlot1.Location = New System.Drawing.Point(88, 150)
+        Me.picSlot1.Location = New System.Drawing.Point(181, 152)
         Me.picSlot1.Name = "picSlot1"
         Me.picSlot1.Size = New System.Drawing.Size(215, 280)
         Me.picSlot1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -169,7 +172,7 @@ Partial Class TheSlots
         'picSlot
         '
         Me.picSlot.BackgroundImage = Global.CasinoGame.My.Resources.Resources.slot_machine
-        Me.picSlot.Location = New System.Drawing.Point(70, 116)
+        Me.picSlot.Location = New System.Drawing.Point(163, 118)
         Me.picSlot.Name = "picSlot"
         Me.picSlot.Size = New System.Drawing.Size(722, 339)
         Me.picSlot.TabIndex = 0
@@ -181,7 +184,7 @@ Partial Class TheSlots
         Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.ForeColor = System.Drawing.Color.White
-        Me.btnExit.Location = New System.Drawing.Point(750, 6)
+        Me.btnExit.Location = New System.Drawing.Point(796, 9)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(122, 32)
         Me.btnExit.TabIndex = 59
@@ -194,7 +197,7 @@ Partial Class TheSlots
         Me.lblInstructions.BackColor = System.Drawing.Color.Teal
         Me.lblInstructions.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInstructions.ForeColor = System.Drawing.Color.White
-        Me.lblInstructions.Location = New System.Drawing.Point(405, 73)
+        Me.lblInstructions.Location = New System.Drawing.Point(451, 79)
         Me.lblInstructions.Name = "lblInstructions"
         Me.lblInstructions.Size = New System.Drawing.Size(467, 130)
         Me.lblInstructions.TabIndex = 60
@@ -208,7 +211,7 @@ Partial Class TheSlots
         Me.btnInstructions.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnInstructions.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnInstructions.ForeColor = System.Drawing.Color.White
-        Me.btnInstructions.Location = New System.Drawing.Point(750, 41)
+        Me.btnInstructions.Location = New System.Drawing.Point(796, 44)
         Me.btnInstructions.Name = "btnInstructions"
         Me.btnInstructions.Size = New System.Drawing.Size(122, 32)
         Me.btnInstructions.TabIndex = 61
@@ -221,7 +224,7 @@ Partial Class TheSlots
         Me.btnMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMax.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMax.ForeColor = System.Drawing.Color.White
-        Me.btnMax.Location = New System.Drawing.Point(91, 70)
+        Me.btnMax.Location = New System.Drawing.Point(17, 112)
         Me.btnMax.Name = "btnMax"
         Me.btnMax.Size = New System.Drawing.Size(122, 32)
         Me.btnMax.TabIndex = 62
@@ -233,7 +236,7 @@ Partial Class TheSlots
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Green
-        Me.ClientSize = New System.Drawing.Size(884, 561)
+        Me.ClientSize = New System.Drawing.Size(930, 561)
         Me.Controls.Add(Me.btnMax)
         Me.Controls.Add(Me.lblInstructions)
         Me.Controls.Add(Me.btnInstructions)

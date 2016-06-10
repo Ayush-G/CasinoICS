@@ -32,6 +32,7 @@ Partial Class MainMenu
         Me.pnlStats = New System.Windows.Forms.Panel()
         Me.lblName = New System.Windows.Forms.Label()
         Me.lblMoney = New System.Windows.Forms.Label()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.pnlStats.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -130,12 +131,26 @@ Partial Class MainMenu
         Me.lblMoney.TabIndex = 51
         Me.lblMoney.Text = "Money: "
         '
+        'btnExit
+        '
+        Me.btnExit.BackColor = System.Drawing.Color.Sienna
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnExit.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.ForeColor = System.Drawing.Color.White
+        Me.btnExit.Location = New System.Drawing.Point(530, 12)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(122, 32)
+        Me.btnExit.TabIndex = 52
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = False
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Green
         Me.ClientSize = New System.Drawing.Size(664, 545)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.pnlStats)
         Me.Controls.Add(Me.btnStats)
         Me.Controls.Add(Me.btnBingo)
@@ -159,4 +174,5 @@ Partial Class MainMenu
     Friend WithEvents pnlStats As Panel
     Friend WithEvents lblName As Label
     Friend WithEvents lblMoney As Label
+    Friend WithEvents btnExit As Button
 End Class

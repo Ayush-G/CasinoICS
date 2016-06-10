@@ -55,19 +55,21 @@ Public Class MainMenu
 
     Private Sub btnBlackJack_Click(sender As Object, e As EventArgs) Handles btnBlackJack.Click
         'Switch to bj
-        Me.Hide()
-        BlackJack.Show()
+        MsgBox("View Chris' project")
     End Sub
 
     Private Sub btnLottery_Click(sender As Object, e As EventArgs) Handles btnLottery.Click
         'go to lottery
-        Me.Hide()
-        Lottery.show()
+        MsgBox("View Chris' project")
     End Sub
 
     Private Sub btnBingo_Click(sender As Object, e As EventArgs) Handles btnBingo.Click
         'go to bingo
-        Me.Hide()
-        Bingo.show()
+        MsgBox("View Thomas' project")
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        MsgBox("Thank you for visiting the casino, " & playerName & vbCrLf & "Total Money: $" & Money)
+        End
     End Sub
 End Class

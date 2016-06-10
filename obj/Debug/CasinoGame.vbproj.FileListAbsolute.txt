@@ -29,3 +29,16 @@ C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\Casin
 C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\obj\Debug\CasinoGame.exe
 C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\obj\Debug\CasinoGame.xml
 C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\obj\Debug\CasinoGame.pdb
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.exe.config
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.exe
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.xml
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.pdb
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.bingo.resources
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.MainMenu.resources
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.Resources.resources
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.Roulette.resources
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.TheSlots.resources
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.vbproj.GenerateResource.Cache
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.exe
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.pdb
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.xml
