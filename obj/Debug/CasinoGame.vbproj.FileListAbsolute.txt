@@ -29,17 +29,3 @@ C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\Casin
 C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\obj\Debug\CasinoGame.exe
 C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\obj\Debug\CasinoGame.xml
 C:\Users\Total\Desktop\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\CasinoGame-3e623dc11ebb0438ef1245e14ba7a8b70bc80ed3\obj\Debug\CasinoGame.pdb
-C:\Users\brown_000\Desktop\CasinoICS\bin\Debug\CasinoGame.exe.config
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.exe
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.xml
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.pdb
-C:\Users\brown_000\Desktop\CasinoICS\bin\Debug\CasinoGame.exe
-C:\Users\brown_000\Desktop\CasinoICS\bin\Debug\CasinoGame.pdb
-C:\Users\brown_000\Desktop\CasinoICS\bin\Debug\CasinoGame.xml
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.vbprojResolveAssemblyReference.cache
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.bingo.resources
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.MainMenu.resources
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.Resources.resources
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.Roulette.resources
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.TheSlots.resources
-C:\Users\brown_000\Desktop\CasinoICS\obj\Debug\CasinoGame.vbproj.GenerateResource.Cache
