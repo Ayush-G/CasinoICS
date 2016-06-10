@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CasinoGame
+</name>
+</assembly>
+<members>
+<member name="T:CasinoGame.GlobalVariables">
+ <summary>
+ By Ayush Gupta, Thomas Brown
+ 09/06/2016
+ Purpose: Navigation and Stats home for the game.
+ </summary>
+</member>
+<member name="T:CasinoGame.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources._0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.Coins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.Coins1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.european_roulette_layout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.Roulette_sound_effect">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.slot_machine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.Slot_Machine_Jackpot_Sound_Effect">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:CasinoGame.My.Resources.Resources.slots">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:CasinoGame.Roulette">
+ <summary>
+ By Ayush Gupta
+ 10/06/2016
+ Roulette game.
+ Purpose: Game - Win Money (hopefully)
+ </summary>
+</member>
+</members>
+</doc>
