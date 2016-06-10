@@ -52,4 +52,22 @@ Public Class MainMenu
         'Stats go away when mouse is removed
         pnlStats.Hide()
     End Sub
+
+    Private Sub btnBlackJack_Click(sender As Object, e As EventArgs) Handles btnBlackJack.Click
+        'Switch to bj
+        Me.Hide()
+        BlackJack.Show()
+    End Sub
+
+    Private Sub btnLottery_Click(sender As Object, e As EventArgs) Handles btnLottery.Click
+        'go to lottery
+        Me.Hide()
+        Lottery.show()
+    End Sub
+
+    Private Sub btnBingo_Click(sender As Object, e As EventArgs) Handles btnBingo.Click
+        'go to bingo
+        Me.Hide()
+        Bingo.show()
+    End Sub
 End Class
