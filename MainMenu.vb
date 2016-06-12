@@ -15,7 +15,7 @@ Public Class MainMenu
         'when they come back to form they may get kicked out if they have no money
         My.Computer.Audio.Stop()
         If Money = 0 Then
-            MsgBox("Get out of my casino, come back when you get a paycheck!")
+            MsgBox("Get out of my casino, come back when you get a paycheck!", 0, "Broke")
             End
         End If
     End Sub
@@ -69,7 +69,7 @@ Public Class MainMenu
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        MsgBox("Thank you for visiting the casino, " & playerName & vbCrLf & "Total Money: $" & Money)
+        MsgBox("Thank you for visiting the casino, " & playerName & vbCrLf & "Total Money: $" & Money, 0, "Thank you!")
         End
     End Sub
 End Class

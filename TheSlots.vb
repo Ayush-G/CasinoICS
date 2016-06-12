@@ -99,20 +99,28 @@
     Function Winnings(ByVal pic1 As Integer, ByVal pic2 As Integer, ByVal pic3 As Integer, ByVal wager As Integer, ByRef FreeSpin As Integer) As Integer
         'Calculates winnings based on the type and number of identical slots, adds free spins if token
         If (rndSlot1 = 7 And rndSlot2 = 7) Or (rndSlot1 = 7 And rndSlot3 = 7) Or (rndSlot2 = 7 And rndSlot3 = 7) Then
+            MsgBox("WINNER: One free spin!", 0, "WINNER!")
             FreeSpin += 1
         ElseIf (rndSlot1 = 7 And rndSlot2 = 7 And rndSlot3 = 7) Then
+            MsgBox("WINNER: Three free spins!", 0, "WINNER!")
             FreeSpin += 3
         ElseIf (rndSlot1 = 2 And rndSlot2 = 2 And rndSlot3 = 2) Then
+            MsgBox("WINNER: +$" & wager * 20, 0, "WINNER!")
             Winnings = wager * 20
         ElseIf rndSlot1 = 3 And rndSlot2 = 3 And rndSlot3 = 3 Then
+            MsgBox("WINNER: +$" & wager * 10, 0, "WINNER!")
             Winnings = wager * 10
         ElseIf (rndSlot1 = 3 And rndSlot2 = 3 And rndSlot3 = 3) Then
+            MsgBox("WINNER: +$" & wager * 15, 0, "WINNER!")
             Winnings = wager * 15
         ElseIf (rndSlot1 = 3 And rndSlot2 = 3) Or (rndSlot1 = 3 And rndSlot3 = 3) Or (rndSlot2 = 3 And rndSlot3 = 3) Then
+            MsgBox("WINNER: +$" & wager * 10, 0, "WINNER!")
             Winnings = wager * 10
         ElseIf (rndSlot1 = 2 And rndSlot2 = 2) Or (rndSlot1 = 2 And rndSlot3 = 2) Or (rndSlot2 = 2 And rndSlot3 = 2) Then
+            MsgBox("WINNER: +$" & wager * 15, 0, "WINNER!")
             Winnings = wager * 15
         ElseIf rndSlot1 = rndSlot2 Or rndSlot1 = rndSlot3 Or rndSlot2 = rndSlot3 Then
+            MsgBox("WINNER: +$" & wager * 2, 0, "WINNER!")
             Winnings = wager * 2
         Else Winnings = 0
         End If

@@ -33,7 +33,6 @@ E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.exe
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.exe
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.xml
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.pdb
-E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.bingo.resources
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.MainMenu.resources
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.Resources.resources
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.Roulette.resources
@@ -42,3 +41,8 @@ E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.vbp
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.exe
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.pdb
 E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.xml
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.vbprojResolveAssemblyReference.cache
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.exe.manifest
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\bin\Debug\CasinoGame.application
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.exe.manifest
+E:\Visual Studio Community 2015\VB\VBProjects\CasinoICS\obj\Debug\CasinoGame.application

@@ -162,11 +162,11 @@ Public Class Roulette
             WinNum = imlist2Real(count)
             stopColour = Real2Colour(WinNum)
             If stopColour = 0 Then
-                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Red")
+                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Red", 0, "Winning Stats")
             ElseIf stopColour = 1 Then
-                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Black")
+                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Black", 0, "Winning Stats")
             ElseIf stopColour = 2 Then
-                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Green")
+                MsgBox("Winning number: " & WinNum & vbCrLf & "Winning colour: Green", 0, "Winning Stats")
             End If
             Money += WinMoney(WinNum, wagerType, stopColour)
             lblMoney.Text = "Money: $" & Money

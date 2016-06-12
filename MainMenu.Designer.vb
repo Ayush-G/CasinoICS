@@ -159,7 +159,7 @@ Partial Class MainMenu
         Me.Controls.Add(Me.btnSlots)
         Me.Controls.Add(Me.btnRoulette)
         Me.Name = "MainMenu"
-        Me.Text = "Form1"
+        Me.Text = "Main Menu"
         Me.pnlStats.ResumeLayout(False)
         Me.pnlStats.PerformLayout()
         Me.ResumeLayout(False)
