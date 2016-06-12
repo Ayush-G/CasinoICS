@@ -252,7 +252,7 @@ Partial Class TheSlots
         Me.Controls.Add(Me.lblMoney)
         Me.Controls.Add(Me.picSlot)
         Me.Name = "TheSlots"
-        Me.Text = "TheSlots"
+        Me.Text = "The Slots"
         CType(Me.nudWager, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSlot3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSlot2, System.ComponentModel.ISupportInitialize).EndInit()
